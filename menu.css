@@ -1,0 +1,61 @@
+.menu, .menu ul {
+    color: white;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+.menu {
+    background-image: url('img/menu_background.jpg');
+/* on centre le menu dans la page */
+    text-align: center;
+    padding: 1.5% 0% 1.5% 0%;
+}
+.menu li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+    padding: 0% 1%;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+	color:white;
+}
+.menu ul {
+    width: 20%;
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+
+}
+.menu li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+.Connexion{
+    float: right;
+    padding: 0.5% 1% 0% 0%;
+}
+
+.Connexion form{
+    display: inline-block;
+    float: right;
+}
+
+.Connexion input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 8px 0;
+    border: solid #000 1px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Connexion input[type=submit]:hover {
+    background-color: white;
+    color: #000;
+    border: solid #000 1px;
+}

@@ -1,0 +1,98 @@
+a:link {color: #eee; text-decoration: none;}
+a:visited {color: #eee; text-decoration: none;}
+a:hover {color: #eee; text-decoration: underline;}
+a:active {color: #eee; text-decoration: none;}
+
+body{
+    margin: 0%;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.Header{
+    padding: 0%;
+    background-color: grey;
+    text-align: center;
+}
+
+.Header img{
+    width: 50%;
+}
+
+.Contenu{
+    margin: 8% auto 16% auto;
+    text-align: center;
+    width: 100%;
+}
+
+.Footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 1% 0%;
+    width: 100%;
+    bottom: 0px;
+    border-top: solid white 1px;
+}
+
+/* CSS des divs film et de la page movie */
+
+.Film{
+    width: 28%;
+    border: solid white 2px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 5% 2%;
+    display: inline-block;
+}
+
+.Film img{
+    height: 290px;
+}
+
+.Movie_Infos{
+    width: 100%;
+    text-align: center;
+}
+
+.Movie{
+    margin: 10% auto;
+    width: 35%;
+    border: solid white 2px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url('img/movie_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Movie, .Synopsis{
+    display: inline-block;
+}
+
+.Synopsis{
+    margin: 6% 0%;
+    width: 50%;
+}
+
+.Movie img{
+    float: left;
+    height: 420px;
+    width: 310px;
+}
+
+.lecteur_ytb{
+    margin-bottom: 10%;
+}
+
+.User_Infos {
+    margin: 0% auto;
+}
+
+.LoginValid {
+    color: red;
+}
